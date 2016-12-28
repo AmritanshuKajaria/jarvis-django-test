@@ -6,8 +6,8 @@
 	i) update-alternatives --list python
 	If the above gives "update-alternatives: error: no alternatives for python" then list the python versions first
 
-		a) update-alternatives --install /usr/bin/python python /usr/bin/python('python version in /usr/bin/') 1 update-alternatives: using /usr/bin/python('python version in /usr/bin/') to provide /usr/bin/python (python) in auto mode
-		b) update-alternatives --install /usr/bin/python python /usr/bin/python('python version in /usr/bin/') 2 update-alternatives: using /usr/bin/python('python version in /usr/bin/') to provide /usr/bin/python (python) in auto mode
+		a) update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+        b) update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
 
 4)Again check python version now it should be 3.5
 
