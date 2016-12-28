@@ -1,3 +1,6 @@
+# jarvis-django-test
+Test Repo for Jarvis Django
+
 1) First check python version: python --version
 
 2) If 2.7 install latest version(3.5): sudo apt-get install python3-pip
